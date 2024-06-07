@@ -1,0 +1,13 @@
+name: generate tests demo
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  generate-tests:
+    runs-on: ubuntu-latest
+    steps:
+        - name: GoCodeo CLI
+          uses: Soumendraprasad/demo_marketplace@v1
+            
