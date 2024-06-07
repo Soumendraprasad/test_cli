@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: GoCodeo CLI
+      - name: GoCodeo CLI use
         uses: Soumendraprasad/demo_marketplace@v1
         with:
           path: ${{ secrets.path }}
